@@ -1,7 +1,7 @@
 import { preloaderHide } from './loaded-map'
 import { generateData } from './generate-data'
 
-const jsonPath = '../assets/json/src_js_data_restorans.json'
+const jsonPath = './assets/json/src_js_data_restorans.json'
 let templatePlacemark
 let templatePlacemarkActive
 

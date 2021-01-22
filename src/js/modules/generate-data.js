@@ -2,7 +2,7 @@ import {
   myMap,
   templatePlacemark,
   templatePlacemarkActive
-} from './promises'
+} from './init'
 import {
   replaceContent
 } from './replaceContent'

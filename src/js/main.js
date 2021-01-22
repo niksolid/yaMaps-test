@@ -1,2 +1,2 @@
 import './modules/polyfill'
-import './modules/promises'
+import './modules/init'

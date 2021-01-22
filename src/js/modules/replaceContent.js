@@ -10,7 +10,6 @@ const replaceContent = (item) => {
   contentAddress.textContent = item.adress
   contentPhone.textContent = item.phone
   contentHours.textContent = item.hours
-
   content.classList.add('content--show')
 }
 
