@@ -1,0 +1,80 @@
+@import "node_modules/normalize.css/normalize";
+@import "variables";
+@import "mixins";
+@import "scaffolding";
+
+.body {
+  position: relative;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.preloader {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('../assets/img/35.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.pokeball-container {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.pokeball-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.pokeball {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  background-image: url('../assets/img/pokeball.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+  border: 1px solid #000000;
+  width: 300px;
+  height: 300px;
+  opacity: 0.9;
+  transition: ease-in 0.5s
+}
+
+.content--show {
+  right: 0;
+  transition: ease-in 0.5s
+}
+
+
